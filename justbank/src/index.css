@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Customize the width and design of the scrollbar */
+body::-webkit-scrollbar {
+  width: 8px; /* Adjust scrollbar width */
+  border-radius: 10px;  
+}
+
+body::-webkit-scrollbar-track {
+  background: #f3f4f6; /* Track color */
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #3b82f6; /* Scrollbar color */
+  border-radius: 10px;
+  border: 2px solid #f3f4f6; /* Adds padding around the thumb */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #2563eb; /* Darker shade for hover */
+}
+
